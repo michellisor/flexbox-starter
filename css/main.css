@@ -112,7 +112,7 @@ body {
   align-content: center;
   flex-wrap: wrap;
   margin: 0;
-  height: 280px;
+  height: 30%;
 }
 .wrapper {
   display: flex;
@@ -355,3 +355,8 @@ body {
         page-break-after: avoid;
     }
 }
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) and (max-width: 1050px) {
+	.top {
+      height: 45%;
+  }
